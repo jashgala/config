@@ -31,7 +31,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Activate syntax highlighting
+syntax on
+
 " Adding powerline status bar
+" Powerline needs to be installed separately!
 set rtp+=/usr/local/lib/python3.4/dist-packages/powerline/bindings/vim
 set laststatus=2
 set t_Co=256
